@@ -1,3 +1,8 @@
+resource "azurerm_resource_group" "main" {
+  name     = "mainnetwork"
+  location = "eastus"
+}
+
 resource "azurerm_virtual_network" "hubnetwork" {
   name                = "hubnetwork"
   location            = azurerm_resource_group.main.location

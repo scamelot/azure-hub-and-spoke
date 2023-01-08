@@ -74,5 +74,3 @@ resource "azurerm_firewall_network_rule_collection" "fwrules" {
 #       translated_port     = 3389
 #     }
 # }
-
-
